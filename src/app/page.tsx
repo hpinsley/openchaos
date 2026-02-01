@@ -1,5 +1,7 @@
 import { Suspense } from "react";
 import { Countdown } from "@/components/Countdown";
+import { ControlledChaos } from "@/components/ControlledChaos";
+
 import { PRList } from "@/components/PRList";
 
 import { ThemeToggle } from "@/components/ThemeToggle";
@@ -20,6 +22,8 @@ export default function Home() {
             <tr>
               <td className="page-header-cell">
                 <span className="page-header-text">
+                  <ControlledChaos />
+                  <br />
                   <b>
                     <span className="sparkle-pulse">✨</span> <span className="blink-text">OPEN PRS - VOTE TO MERGE</span> <span className="sparkle-pulse sparkle-delay-2">✨</span>
                   </b>
