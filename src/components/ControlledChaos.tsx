@@ -18,7 +18,7 @@ export function ControlledChaos() {
 
   return (
     <div className="ccContainer">
-      <h1>Controll vs Chaos</h1>
+      <h1>Control vs Chaos</h1>
       <div>
         <WorldChaos scramble_words={scramble_words} rotateInterval={3000} url="/api/world-chaos" />
       </div>
